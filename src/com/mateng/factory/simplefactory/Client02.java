@@ -4,7 +4,7 @@ package com.mateng.factory.simplefactory;
  */
 public class Client02 {
 	public static void main(String[] args) {
-		Car c1 = CarFactory.createCar("±¼³Û");
+		Car c1 = CarFactory.createCar("°ÂµÏ");
 		Car c2 = CarFactory.createCar("±ÈÑÇµÏ");
 		
 		c1.run();
