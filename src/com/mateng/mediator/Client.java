@@ -1,0 +1,14 @@
+package com.mateng.mediator;
+
+public class Client {
+	public static void main(String[] args) {
+		Mediator m = new Persident();
+		
+		Market market = new Market(m);
+		Development devp = new Development(m);
+		Finacial f = new Finacial(m);
+		
+		market.selfAction();
+		market.outAction();
+	}
+}
